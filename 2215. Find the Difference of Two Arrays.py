@@ -26,3 +26,11 @@ class Solution2:
 
 
         return [list(h1),list(h2)]
+
+
+
+class Solution3:
+    def findDifference3(self, nums1: List[int], nums2: List[int]) -> List[List[int]]:        
+        return [list(set(nums1) - set(nums2)),list(set(nums2) - set(nums1))]
+
+        
